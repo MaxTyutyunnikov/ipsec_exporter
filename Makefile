@@ -22,14 +22,14 @@ build:
 	go build -o ipsec_exporter ./cmd/ipsec_exporter
 
 bootstrap:
-	git remote add altbrace https://github.com/altbrace/ipsec_exporter.git
-	git remote add dioss-Machiel https://github.com/dioss-Machiel/ipsec_exporter.git
-	git remote add ffreville https://github.com/ffreville/ipsec_exporter.git
-	git remote add HabitatEnergy https://github.com/HabitatEnergy/ipsec_exporter.git
-	git remote add idatahu https://github.com/idatahu/ipsec_exporter.git
-	git remote add ivanu-bede https://github.com/ivanu-bede/ipsec_exporter.git
-	git remote add oxyno-zeta https://github.com/oxyno-zeta/ipsec_exporter.git
-	git remote add spheromak https://github.com/spheromak/ipsec_exporter.git
+	git remote add altbrace https://github.com/altbrace/ipsec_exporter.git || :
+	git remote add dioss-Machiel https://github.com/dioss-Machiel/ipsec_exporter.git || :
+	git remote add ffreville https://github.com/ffreville/ipsec_exporter.git || :
+	git remote add HabitatEnergy https://github.com/HabitatEnergy/ipsec_exporter.git || :
+	git remote add idatahu https://github.com/idatahu/ipsec_exporter.git || :
+	git remote add ivanu-bede https://github.com/ivanu-bede/ipsec_exporter.git || :
+	git remote add oxyno-zeta https://github.com/oxyno-zeta/ipsec_exporter.git || :
+	git remote add spheromak https://github.com/spheromak/ipsec_exporter.git || :
 	git pull --all
 
 worktree:
