@@ -1,7 +1,3 @@
-> **Note**
-> 
-> This repository is no longer supported or updated. If you wish to continue to develop this code yourself, consider forking it.
-
 # IPsec Exporter
 
 [![tests](https://github.com/sergeymakinen/ipsec_exporter/workflows/tests/badge.svg)](https://github.com/sergeymakinen/ipsec_exporter/actions?query=workflow%3Atests)
@@ -16,6 +12,11 @@ To run it:
 ```bash
 make
 ./ipsec_exporter [flags]
+```
+
+## Docker Container
+```
+docker pull ghcr.io/habitatenergy/ipsec_exporter
 ```
 
 ## Exported metrics
