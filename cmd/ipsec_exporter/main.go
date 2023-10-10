@@ -14,8 +14,8 @@ import (
 	"github.com/prometheus/common/version"
 	"github.com/prometheus/exporter-toolkit/web"
 	webflag "github.com/prometheus/exporter-toolkit/web/kingpinflag"
-//	"github.com/MaxTyutyunnikov/ipsec_exporter/exporter"
-	"github.com/sergeymakinen/ipsec_exporter/exporter"
+	"github.com/MaxTyutyunnikov/ipsec_exporter/exporter"
+//	"github.com/sergeymakinen/ipsec_exporter/exporter"
 	"gopkg.in/alecthomas/kingpin.v2"
 )
 

@@ -176,6 +176,10 @@ func (e *Exporter) uidFor(name string, uid uint32) uint32 {
 }
 
 func (e *Exporter) collect(m metrics, ch chan<- prometheus.Metric) {
+
+	localIp := ""
+	childSwanState := 0
+
 	e.UidMapping.StartScrape()
 	defer e.UidMapping.EndScrape()
 
