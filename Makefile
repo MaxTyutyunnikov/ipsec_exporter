@@ -30,6 +30,7 @@ bootstrap:
 	git remote add ivanu-bede https://github.com/ivanu-bede/ipsec_exporter.git
 	git remote add oxyno-zeta https://github.com/oxyno-zeta/ipsec_exporter.git
 	git remote add spheromak https://github.com/spheromak/ipsec_exporter.git
+	git pull --all
 
 worktree:
 	git worktree add ../ipsec_exporter.altbrace; cd ../ipsec_exporter.altbrace; git checkout altbrace/main || :
