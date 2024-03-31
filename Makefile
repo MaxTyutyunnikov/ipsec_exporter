@@ -30,6 +30,11 @@ bootstrap:
 	git remote add ivanu-bede https://github.com/ivanu-bede/ipsec_exporter.git || :
 	git remote add oxyno-zeta https://github.com/oxyno-zeta/ipsec_exporter.git || :
 	git remote add spheromak https://github.com/spheromak/ipsec_exporter.git || :
+
+	git remote add sergeymakinen https://github.com/sergeymakinen/ipsec_exporter.git || :
+	git remote add ymartyni https://github.com/ymartyni/ipsec_exporter.git || :
+	git remote add one-mINd https://github.com/one-mINd/ipsec_exporter.git || :
+
 	git pull --all
 
 worktree:
@@ -41,3 +46,10 @@ worktree:
 	git worktree add ../ipsec_exporter.ivanu-bede; cd ../ipsec_exporter.ivanu-bede; git checkout ivanu-bede/main || :
 	git worktree add ../ipsec_exporter.oxyno-zeta; cd ../ipsec_exporter.oxyno-zeta; git checkout oxyno-zeta/main || :
 	git worktree add ../ipsec_exporter.spheromak; cd ../ipsec_exporter.spheromak; git checkout spheromak/main || :
+
+	git worktree add ../ipsec_exporter.sergeymakinen; cd ../ipsec_exporter.sergeymakinen; git checkout sergeymakinen/main || :
+	git worktree add ../ipsec_exporter.ymartyni; cd ../ipsec_exporter.ymartyni; git checkout ymartyni/main || :
+	git worktree add ../ipsec_exporter.one-mINd; cd ../ipsec_exporter.one-mINd; git checkout one-mINd/main || :
+
+#	git worktree add ../ipsec_exporter.; cd ../ipsec_exporter.; git checkout /main || :
+
